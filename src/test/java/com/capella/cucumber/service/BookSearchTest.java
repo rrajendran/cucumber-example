@@ -11,9 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"classpath:feature/book/search_book.feature"})
 public class BookSearchTest {
-
     @Test
     public void testFindBooks() throws Exception {
-
     }
 }
